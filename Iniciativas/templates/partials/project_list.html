@@ -1,0 +1,24 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th>Nombre del Proyecto</th>
+        <th>Estudiante</th>
+        <th>Tema</th>
+        <th>Patrocinado</th>
+        <th>Profesor Patrocinador</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for proyecto in proyectos %}
+      {% if proyecto.patrocinado %}
+      <tr>
+        <td>{{ proyecto.nombre_proyecto }}</td>
+        <td>{{ proyecto.estudiante }}</td>
+        <td>{{ proyecto.tema }}</td>
+        <td>{{ proyecto.patrocinado }}</td>
+        <td>{{ proyecto.profesor_patrocinador }}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+</table>

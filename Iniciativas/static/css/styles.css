@@ -1,0 +1,79 @@
+
+
+.navbar {
+    
+    background-color: #074489 !important;
+}
+.navbar-light .navbar-brand {
+    color: white !important; 
+}
+.navbar-nav .nav-link {
+    color: white !important; 
+}
+
+
+
+#inicio .container{
+    background-image: url('../imagenes/svm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 0;
+    height: 80vh; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+#inicio h2 {
+    font-size: 3em; 
+}
+#inico .subtitulo {
+    color:white; 
+    font-weight: 600; 
+    font-size: 1.2em; 
+    margin-bottom: 10px;  
+}
+
+
+
+
+#proyectos .container {
+    padding-top: 25px; 
+    padding-bottom: 50px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#proyectos h2 {
+    font-size: 3em; 
+}
+#proyectos .subtitulo {
+    color: #e5b300; 
+    font-weight: 600; 
+    font-size: 1.2em; 
+    margin-bottom: 10px;  
+}
+
+
+
+#iniciarSesion .container {
+    background-color: #005e90;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 0;
+    height: 80vh; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#proyectos table {
+    margin-top: 80px; 
+}
